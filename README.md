@@ -1,72 +1,79 @@
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-## Template Instructions
+# Car Price Analysis and Dashboard
 
-Welcome,
+This repository contains all of the files and documentation for the Car Price Analysis and Dashboard Hackathon project. The aims are to provide analyses and visualisations in the form of a data dashboard to be used as a tool in providing stakeholders with key insights linked to their business requirements, as detailed below.
 
-This is the Code Institute student template for the Data Analytics capstone project. We have preinstalled all of the tools you need to get started. It's perfectly okay to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
+## Dataset Content
 
-You can safely delete the Template Instructions section of this README.md file and modify the remaining paragraphs for your own project. Please do read the Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use.
+This Car Price dataset contains information on the price of 205 cars, along with 24 features such as make/model, fuel type and engine size. Each row contains data on an individual car, and a detailed description of each feature in the dataset can be found in the Data directory ('Data/Data_dictionary.xlsx'). The dataset is freely available on Kaggle; https://www.kaggle.com/datasets/imgowthamg/car-price (date accessed: 06/10/2025).
 
-## How to use this repo
 
-1. Use this template to create your GitHub project repo. Click the **Use this template** button, then click **Create a new repository**.
+## Business Requirements
+The stakeholders (car company) are interested in understanding what the main factors are that influence the price of a car, in order to help them adjust their business strategy and maximise sales.
 
-1. Copy the URL of your repository to your clipboard.
 
-1. In VS Code, select **File** -> **Open Folder**.
+## Hypothesis and Approaches
+**to be added**
 
-1. Select your `vscode-projects` folder, then click the **Select Folder** button on Windows, or the **Open** button on Mac.
+## Project Plan
 
-1. From the top menu in VS Code, select **Terminal** > **New Terminal** to open the terminal.
+The data was first extracted from Kaggle and cleaned in order to improve the quality of the data for further analyses. This cleaned data was uploaded into the repository (Data/car_price_cleaned_data.csv) for access by the wider team. Exploratory data analysis (EDA) was performed to understand the key variables and their dstributions and to identify outliers and perform any necessary transformations. These steps were completed in Python in order to maintain reproducibility, and can be found in the jupyter_notebooks directory ('jupyter_notebooks/01_EDA_car_price_project.ipynb'). The cleaned data was used to create interactive visualisations in a Tableau dashboard, which will be used to inform the hypotheses and provide insights to stakeholders for their business requirements. Tableau was chosen as the dashboarding tool as it is widely used in business and provides an intuitive platform for data storytelling. The dashboard associated with this project is publicly available here: **XXX**
 
-1. In the terminal, type `git clone` followed by the URL of your GitHub repository. Then hit **Enter**. This command will download all the files in your GitHub repository into your vscode-projects folder.
+## The rationale to map the business requirements to the Data Visualisations
+* List your business requirements and a rationale to map them to the Data Visualisations
 
-1. In VS Code, select **File** > **Open Folder** again.
+## Analysis techniques used
+* List the data analysis methods used and explain limitations or alternative approaches.
+* How did you structure the data analysis techniques. Justify your response.
+* Did the data limit you, and did you use an alternative approach to meet these challenges?
+* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
 
-1. This time, navigate to and select the folder for the project you just downloaded. Then, click **Select Folder**.
+## Summary of Findings
+**to be added**
 
-1. A virtual environment is necessary when working with Python projects to ensure each project's dependencies are kept separate from each other. You need to create your virtual environment, also called a venv, and then ensure that it is activated any time you return to your workspace.
-Click the gear icon in the lower left-hand corner of the screen to open the Manage menu and select **Command Palette** to open the VS Code command palette.
+## Ethical considerations
 
-1. In the command palette, type: *create environment* and select **Python: Create Environment…**
+The dataset is publicly available and contains no private data on individuals.
 
-1. Choose **Venv** from the dropdown list.
+## Dashboard Design
+* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
+* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
+* How were data insights communicated to technical and non-technical audiences?
+* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
 
-1. Choose the Python version you installed earlier. Currently, we recommend Python 3.12.8
+## Unfixed Bugs
+* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
+* Did you recognise gaps in your knowledge, and how did you address them?
+* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
 
-1. **DO NOT** click the box next to `requirements.txt`, as you need to do more steps before you can install your dependencies. Click **OK**.
+## Development Roadmap
+* What challenges did you face, and what strategies were used to overcome these challenges?
+* What new skills or tools do you plan to learn next based on your project experience? 
 
-1. You will see a `.venv` folder appear in the file explorer pane to show that the virtual environment has been created.
 
-1. **Important**: Note that the `.venv` folder is in the `.gitignore` file so that Git won't track it.
 
-1. Return to the terminal by clicking on the TERMINAL tab, or click on the **Terminal** menu and choose **New Terminal** if no terminal is currently open.
+## Main Data Analysis Libraries
+* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
 
-1. In the terminal, use the command below to install your dependencies. This may take several minutes.
 
- ```console
- pip3 install -r requirements.txt
- ```
+## Credits  
 
-1. Open the `jupyter_notebooks` directory, and click on the notebook you want to open.
+### Contributions:
 
-1. Click the **kernel** button and choose **Python Environments**.
+* Data Architect - Yulia Shutko
+* Data Analyst - Maria-Marsella Gounaridou
+* Data Analyst - Ifrah Mohamed
+* Project Manager - Kirsty Marsh
 
-Note that the kernel says `Python 3.12.8` as it inherits from the venv, so it will be Python-3.12.8 if that is what is installed on your PC. To confirm this, you can use the command below in a notebook code cell.
+### Resources:
 
-```console
-! python --version
-```
+* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+* You can break the credits section up into Content and Media, depending on what you have included in your project.
 
-## Deployment Reminders
+- The photos used on the home and sign-up page are from This Open-Source site
+- The images used for the gallery page were taken from this other open-source site
 
-* Set the `.python-version` Python version to a [Heroku-22](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version that closest matches what you used in this project.
-* The project can be deployed to Heroku using the following steps.
 
-1. Log in to Heroku and create an App
-2. At the **Deploy** tab, select **GitHub** as the deployment method.
-3. Select your repository name and click **Search**. Once it is found, click **Connect**.
-4. Select the branch you want to deploy, then click **Deploy Branch**.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click the button **Open App** at the top of the page to access your App.
-6. If the slug size is too large, then add large files not required for the app to the `.slugignore` file.
+## Acknowledgements (optional)
+* Thank the people who provided support through this project.
