@@ -1,12 +1,19 @@
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+# Project Content
+* [Readme.md](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/README.md)
+* [Project Board](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/README.md)
+* [Datasets](https://github.com/KMarsh-code/Car-Price-Analysis-Project/tree/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/Data)
+* [Project Jupyter Notebook](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/jupyter_notebooks/01_car_price_project.ipynb)
+* [Visualizations](https://github.com/KMarsh-code/Car-Price-Analysis-Project/tree/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/Plots)
+* [Tableau Dashboards]()
+
 # Car Price Analysis and Dashboard
 
 This repository contains all of the files and documentation for the Car Price Analysis and Dashboard Hackathon project. The aims are to provide analyses and visualisations in the form of a data dashboard to be used as a tool in providing stakeholders with key insights linked to their business requirements, as detailed below.
 
 ## Dataset Content
-
-This Car Price dataset contains information on the price of 205 cars, along with 24 features such as make/model, fuel type and engine size. Each row contains data on an individual car, and a detailed description of each feature in the dataset can be found in the Data directory ('Data/Data_dictionary.xlsx'). The dataset is freely available on Kaggle; https://www.kaggle.com/datasets/imgowthamg/car-price (date accessed: 06/10/2025).
+This Car Price dataset contains information on the price of 205 cars, along with 24 features such as make/model, fuel type and engine size. Each row contains data on an individual car, and a detailed description of each feature in the dataset can be found in the Data directory [Data Dictionary](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/Data/car_price_cleaned_data.csv). The dataset is freely available on [Kaggle](https://www.kaggle.com/datasets/imgowthamg/car-price) (date accessed: 06/10/2025).
 
 
 ## Business Requirements
@@ -18,16 +25,18 @@ The stakeholders (car company) are interested in understanding what the main fac
 
 ## Project Plan
 
-The data was first extracted from Kaggle and cleaned in order to improve the quality of the data for further analyses. This cleaned data was uploaded into the repository (Data/car_price_cleaned_data.csv) for access by the wider team. Exploratory data analysis (EDA) was performed to understand the key variables and their dstributions and to identify outliers and perform any necessary transformations. These steps were completed in Python in order to maintain reproducibility, and can be found in the jupyter_notebooks directory ('jupyter_notebooks/01_EDA_car_price_project.ipynb'). The cleaned data was used to create interactive visualisations in a Tableau dashboard, which will be used to inform the hypotheses and provide insights to stakeholders for their business requirements. Tableau was chosen as the dashboarding tool as it is widely used in business and provides an intuitive platform for data storytelling. The dashboard associated with this project is publicly available here: **XXX**
+The data was first extracted from Kaggle and cleaned in order to improve the quality of the data for further analyses. This cleaned data was uploaded into the [repository](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/Data/car_price_cleaned_data.csv) for access by the wider team. Exploratory data analysis (EDA) was performed to understand the key variables and their dstributions and to identify outliers and perform any necessary transformations. These steps were completed in Python in order to maintain reproducibility, and can be found in the [jupyter_notebooks directory](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/jupyter_notebooks/01_car_price_project.ipynb). The cleaned data was used to create interactive visualisations in a Tableau dashboard, which will be used to inform the hypotheses and provide insights to stakeholders for their business requirements. Tableau was chosen as the dashboarding tool as it is widely used in business and provides an intuitive platform for data storytelling. The dashboard associated with this project is publicly available here: **XXX**
 
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
 
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+* Visual Studio Code
+* Python
+* Jupyter notebook
+* ChatGPT
+* GitHub
+* Tableau
 
 ## Summary of Findings
 **to be added**
