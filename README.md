@@ -13,15 +13,51 @@
 This repository contains all of the files and documentation for the Car Price Analysis and Dashboard Hackathon project. The aims are to provide analyses and visualisations in the form of a data dashboard to be used as a tool in providing stakeholders with key insights linked to their business requirements, as detailed below.
 
 ## Dataset Content
-This Car Price dataset contains information on the price of 205 cars, along with 24 features such as make/model, fuel type and engine size. Each row contains data on an individual car, and a detailed description of each feature in the dataset can be found in the Data directory [Data Dictionary](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/Data/car_price_cleaned_data.csv). The dataset is freely available on [Kaggle](https://www.kaggle.com/datasets/imgowthamg/car-price) (date accessed: 06/10/2025).
+This Car Price dataset contains information on the price of 205 cars, along with 24 features such as make/model, fuel type and engine size. Each row contains data on an individual car, and a detailed description of each feature in the dataset can be found in the [Data Dictionary](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/Data/car_price_cleaned_data.csv). The dataset is freely available on [Kaggle](https://www.kaggle.com/datasets/imgowthamg/car-price) (date accessed: 06/10/2025).
 
 
 ## Business Requirements
 The stakeholders (car company) are interested in understanding what the main factors are that influence the price of a car, to help them adjust their business strategy and maximise sales.
 
 
-## Hypothesis and Approaches
-**to be added**
+## Hypotheses and Approaches
+
+**H1: Price segmentation through performance indicators**
+
+Car prices follow a structured segmentation driven by engine capacity and performance metrics. Vehicles with larger engines and higher horsepower tend to belong to higher value segments, while smaller engine vehicles form the economy class.
+
+**Visualisations:**
+
+Correlation Heatmap (EDA): numeric variable relationships.
+
+Scatterplot (Tableau Dashboard): Engine Size vs Price
+
+**H2: Performance, efficiency and value perception**
+
+Higher horsepower leads to higher vehicle prices but lower fuel efficiency. Diesel vehicles maintain better mileage and higher price points compared to gas vehicles at similar performance levels.
+
+**Visualisations:**
+
+Scatterplot (EDA): horsepower vs MPG and horsepower vs. price.
+
+Scatterplot (Tableau Dashboard): Horsepower vs City MPG; Horsepower vs Price; Highway MPG vs Price (additional advanced visuals). 
+
+**H3: Brand-level pricing and market positioning**
+
+Car brands position themselves across the market spectrum according to perceived quality, design, and prestige. Luxury brands (Jaguar, Porsche, BMW) command higher median prices, while economy brands (Toyota, Nissan, Honda) maintain affordability through price consistency.
+
+**Visualisations:**
+
+Histogram (EDA): Distribution of car prices
+
+Barplot (Tableau Dashboard): Average car price per brand, including additional advanced visuals.
+
+**H4: Regional distribution and market segmentation**
+The global car market exhibits clear regional segmentation. European brands dominate the mid class and luxury tiers, while Asian manufacturers lead in the economy segment.
+
+**Visualisations:**
+
+Global map (Tableau Dashboard): regional distribution of price segments
 
 ## Project Plan
 
@@ -50,7 +86,8 @@ The following visualisations were used to support this analysis:
 * PowerPoint
 
 ## Summary of Findings
-**to be added**
+
+The project presents a connected analysis of vehicle pricing using Python and Tableau. It begins with correlation based segmentation and progresses through performance efficiency relationships, brand perception, and regional dynamics. The findings confirm that performance and engine size drive baseline pricing; fuel efficiency inversely affects perceived value; brand reputation increases price tolerance; and regional origin reinforces market segmentation. This integrated approach combines analytics and business interpretation to offer actionable insights into how the automotive industry positions and prices its products globally.
 
 ## Ethical considerations
 
