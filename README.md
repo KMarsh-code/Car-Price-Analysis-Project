@@ -17,7 +17,7 @@ This Car Price dataset contains information on the price of 205 cars, along with
 
 
 ## Business Requirements
-The stakeholders (car company) are interested in understanding what the main factors are that influence the price of a car, in order to help them adjust their business strategy and maximise sales.
+The stakeholders (car company) are interested in understanding what the main factors are that influence the price of a car, to help them adjust their business strategy and maximise sales.
 
 
 ## Hypothesis and Approaches
@@ -25,12 +25,22 @@ The stakeholders (car company) are interested in understanding what the main fac
 
 ## Project Plan
 
-The data was first extracted from Kaggle and cleaned in order to improve the quality of the data for further analyses. This cleaned data was uploaded into the [repository](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/Data/car_price_cleaned_data.csv) for access by the wider team. Exploratory data analysis (EDA) was performed to understand the key variables and their dstributions and to identify outliers and perform any necessary transformations. These steps were completed in Python in order to maintain reproducibility, and can be found in the [jupyter_notebooks directory](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/jupyter_notebooks/01_car_price_project.ipynb). The cleaned data was used to create interactive visualisations in a Tableau dashboard, which will be used to inform the hypotheses and provide insights to stakeholders for their business requirements. Tableau was chosen as the dashboarding tool as it is widely used in business and provides an intuitive platform for data storytelling. The dashboard associated with this project is publicly available here: **XXX**
+The data was first extracted from Kaggle and cleaned in order to improve the quality of the data for further analysis. This cleaned data was uploaded into the [repository](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/Data/car_price_cleaned_data.csv) for access by the wider team. Exploratory data analysis (EDA) was performed to understand the key variables and their distributions and to identify outliers and perform any necessary transformations. These steps were completed in Python to maintain reproducibility, and can be found in the [jupyter_notebooks directory](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/jupyter_notebooks/01_car_price_project.ipynb). The cleaned data was used to create interactive visualisations in a Tableau dashboard, which will be used to inform the hypotheses and provide insights to stakeholders for their business requirements. Tableau was chosen as the dashboarding tool as it is widely used in business and provides an intuitive platform for data storytelling. The dashboard associated with this project is publicly available here: **XXX**
 
 ## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
+
+To meet our business goal of understanding the factors that influence car pricing and identify brand positioning, we focused our analysis on features that demonstrate strong statistical relationships with price. This ensures that insights are both data-driven and actionable.
+
+The following visualisations were used to support this analysis:
+* Pairplot of key numeric features: Provided a holistic view of variable relationships and helped confirm linear patterns (e.g., between engine size and price).
+* Correlation heatmap: Quantified the strength of relationships, helping us identify the most predictive variables for price modeling.
+* Regression plots: Showed clear linear trends between price and both horsepower and engine size, confirming these as reliable indicators for premium pricing.
+* City MPG vs Horsepower: Illustrated the performance-efficiency trade-off, valuable for market segmentation strategies.
+* Price Distribution with Segments: Helped identify pricing clusters for low-, mid-, and high-end vehicles.
+* Brand vs Average Price: Revealed brand positioning in terms of pricing, useful for competitor benchmarking and marketing focus.
 
 ## Analysis techniques used
+
 * Visual Studio Code
 * Python
 * Jupyter notebook
@@ -58,10 +68,9 @@ The dataset is publicly available and contains no private data on individuals.
 * If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
 
 ## Development Roadmap
+
 * What challenges did you face, and what strategies were used to overcome these challenges?
 * What new skills or tools do you plan to learn next based on your project experience? 
-
-
 
 ## Main Data Analysis Libraries
 * Pandas
@@ -82,12 +91,11 @@ The dataset is publicly available and contains no private data on individuals.
 
 ### Resources:
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project.
-
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
-
+* [The Code Institute](https://codeinstitute.net/) Learning Management System
+* [VS Code](https://code.visualstudio.com/) was used to wite the code
+* [ChatGPT](https://chatgpt.com/) was used to generate and debug code
+* [README](https://github.com/Code-Institute-Solutions/da-README-template) template
+* [Kaggle](https://www.kaggle.com/datasets/imgowthamg/car-price)) data set was used for this project
 
 ## Acknowledgements (optional)
 * Thank the people who provided support through this project.
