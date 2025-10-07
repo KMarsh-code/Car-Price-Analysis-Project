@@ -64,8 +64,12 @@ The dataset is publicly available and contains no private data on individuals.
 
 
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
-
+* Pandas
+* Numpy
+* Plotly
+* Seabon
+* Matplotlib
+* Tableau
 
 ## Credits  
 
