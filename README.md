@@ -25,7 +25,7 @@ The stakeholders (car company) are interested in understanding what the main fac
 
 ## Project Plan
 
-The data was first extracted from Kaggle and cleaned in order to improve the quality of the data for further analysis. This cleaned data was uploaded into the [repository](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/Data/car_price_cleaned_data.csv) for access by the wider team. Exploratory data analysis (EDA) was performed to understand the key variables and their distributions and to identify outliers and perform any necessary transformations. These steps were completed in Python to maintain reproducibility, and can be found in the [jupyter_notebooks directory](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/jupyter_notebooks/01_car_price_project.ipynb). The cleaned data was used to create interactive visualisations in a Tableau dashboard, which will be used to inform the hypotheses and provide insights to stakeholders for their business requirements. Tableau was chosen as the dashboarding tool as it is widely used in business and provides an intuitive platform for data storytelling. The dashboard associated with this project is publicly available here: **XXX**
+The data was first extracted from Kaggle and then cleaned to improve its quality for further analysis. This cleaned data was uploaded into the [repository](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/Data/car_price_cleaned_data.csv) for access by the wider team. Exploratory data analysis (EDA) was conducted to understand the key variables and their distributions, identify outliers, and perform any necessary transformations. These steps were completed in Python to maintain reproducibility, and can be found in the [jupyter_notebooks directory](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/jupyter_notebooks/01_car_price_project.ipynb). The cleaned data was used to create interactive visualisations in a Tableau dashboard, which will be used to inform the hypotheses and provide insights to stakeholders for their business requirements. Tableau was chosen as the dashboarding tool as it is widely used in business and provides an intuitive platform for data storytelling. The dashboard associated with this project is publicly available here: **XXX**
 
 ## The rationale to map the business requirements to the Data Visualisations
 
@@ -95,7 +95,7 @@ The dataset is publicly available and contains no private data on individuals.
 * [VS Code](https://code.visualstudio.com/) was used to wite the code
 * [ChatGPT](https://chatgpt.com/) was used to generate and debug code
 * [README](https://github.com/Code-Institute-Solutions/da-README-template) template
-* [Kaggle](https://www.kaggle.com/datasets/imgowthamg/car-price)) data set was used for this project
+* [Kaggle](https://www.kaggle.com/datasets/imgowthamg/car-price) data set was used for this project
 
 ## Acknowledgements (optional)
 * Thank the people who provided support through this project.
