@@ -1,5 +1,5 @@
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png) 
-# ![LB Logo](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/d1ce399802dfe1c51fcdf2dcbe1b3fdaaf43c83c/LB_image.jpg))
+<img src="[LB Logo.png](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/d1ce399802dfe1c51fcdf2dcbe1b3fdaaf43c83c/LB_image.jpg)" alt="Logo" width="50%" height = "50%"/> 
 
 # Project Content
 * [Readme.md](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/README.md)
