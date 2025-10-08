@@ -1,4 +1,5 @@
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png) 
+# ![LB Logo](https://www.vecteezy.com/vector-art/17461005-cute-ladybug-insect-animal-animated-vector-illustration)
 
 # Project Content
 * [Readme.md](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/README.md)
