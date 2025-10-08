@@ -1,4 +1,8 @@
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png) 
+
+<p align="center">
+  <img src="LB_image.jpg" alt="Project Logo" width="25%">
+</p>
 
 # Project Content
 * [Readme.md](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/README.md)
@@ -151,5 +155,6 @@ Working on a hackathon project as a small, fully remote team was challenging as 
 * [ChatGPT](https://chatgpt.com/) was used to generate and debug code
 * [README](https://github.com/Code-Institute-Solutions/da-README-template) template
 * [Kaggle](https://www.kaggle.com/datasets/imgowthamg/car-price) data set was used for this project
+* [Logo Image](https://www.vecteezy.com/vector-art/17461005-cute-ladybug-insect-animal-animated-vector-illustration)
 
 
