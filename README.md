@@ -137,6 +137,7 @@ The dataset is publicly available and contains no private data on individuals.
 * [ChatGPT](https://chatgpt.com/) was used to generate and debug code
 * [README](https://github.com/Code-Institute-Solutions/da-README-template) template
 * [Kaggle](https://www.kaggle.com/datasets/imgowthamg/car-price) data set was used for this project
+* [Logo Image](https://www.vecteezy.com/vector-art/17461005-cute-ladybug-insect-animal-animated-vector-illustration)
 
 ## Acknowledgements (optional)
 * Thank the people who provided support through this project.
