@@ -10,12 +10,12 @@
 * [Datasets](https://github.com/KMarsh-code/Car-Price-Analysis-Project/tree/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/Data)
 * [Project Jupyter Notebook](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/jupyter_notebooks/01_car_price_project.ipynb)
 * [Visualizations](https://github.com/KMarsh-code/Car-Price-Analysis-Project/tree/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/Plots)
-* [Tableau Dashboard Online](https://public.tableau.com/app/profile/maria.matsella/viz/CarPriceAnalysis_17598897815210/Dashboard1)
-* [Tableau Dashboard Static Versions]()
+* [Tableau Dashboard Online](https://public.tableau.com/app/profile/maria.matsella/vizzes)
+* [Tableau Dashboard Static Versions](https://github.com/KMarsh-code/Car-Price-Analysis-Project/tree/main/Dashboards)
 
 # Car Price Analysis and Dashboard
 
-This repository contains all of the files and documentation for the Car Price Analysis and Dashboard Hackathon project. The aims are to provide analyses and visualisations in the form of a data dashboard to be used as a tool in providing stakeholders with key insights linked to their business requirements, as detailed below.
+This repository contains all of the files and documentation for the Car Price Analysis and Dashboard Hackathon project by **Team Ladybug**. The aims are to provide analyses and visualisations in the form of a data dashboard to be used as a tool in providing stakeholders with key insights linked to their business requirements, as detailed below.
 
 ## Dataset Content
 This Car Price dataset contains information on the price of 205 cars, along with 24 features such as make/model, fuel type and engine size. Each row contains data on an individual car, and a detailed description of each feature in the dataset can be found in the [Data Dictionary](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/Data/car_price_cleaned_data.csv). The dataset is freely available on [Kaggle](https://www.kaggle.com/datasets/imgowthamg/car-price) (date accessed: 06/10/2025).
@@ -30,24 +30,25 @@ The stakeholders (car company) are interested in understanding what the main fac
 Car prices follow a structured segmentation driven by engine capacity and performance metrics. Vehicles with larger engines and higher horsepower tend to belong to higher value segments, while smaller engine vehicles form the economy class.
 
 **Visualisations:**
-* Correlation Heatmap (EDA): numeric variable relationships.
-* Scatterplot (Tableau Dashboard): Engine Size vs Price
+* Correlation Heatmap (EDA): Numeric variable relationships.
+* Scatterplot (Tableau Dashboard): Engine size vs price
 
 **H2: Performance, efficiency and value perception**
 
 Higher horsepower leads to higher vehicle prices but lower fuel efficiency. Diesel vehicles maintain better mileage and higher price points compared to gas vehicles at similar performance levels.
 
 **Visualisations:**
-* Scatterplot (EDA): horsepower vs MPG and horsepower vs. price.
-* Scatterplot (Tableau Dashboard): Horsepower vs City MPG; Horsepower vs Price; Highway MPG vs Price (additional advanced visuals). 
+* Scatterplots (EDA): Horsepower vs city MPG; horsepower vs. price; engine size vs price; city MPG vs price
+* Scatterplots (Tableau Dashboard): Horsepower vs city MPG; horsepower vs price; city MPG vs price (additional advanced visuals). 
 
 **H3: Brand-level pricing and market positioning**
 
 Car brands position themselves across the market spectrum according to perceived quality, design, and prestige. Luxury brands (Jaguar, Porsche, BMW) command higher median prices, while economy brands (Toyota, Nissan, Honda) maintain affordability through price consistency.
 
 **Visualisations:**
-* Histogram (EDA): Distribution of car prices
-* Barplot (Tableau Dashboard): Average car price per brand, including additional advanced visuals.
+* Histogram (EDA): Distribution of car prices with segments
+* Barplot (Tableau Dashboard): Average car price per brand, including additional advanced visuals
+* Doughnut chart (Tableau Dashboard): Average price by car body type
 
 **H4: Regional distribution and market segmentation**
 The global car market exhibits clear regional segmentation. European brands dominate the mid class and luxury tiers, while Asian manufacturers lead in the economy segment.
@@ -57,7 +58,7 @@ The global car market exhibits clear regional segmentation. European brands domi
 
 ## Project Plan
 
-The data was first extracted from Kaggle and then cleaned to improve its quality for further analysis. This cleaned data was uploaded into the [repository](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/Data/car_price_cleaned_data.csv) for access by the wider team. Exploratory data analysis (EDA) was conducted to understand the key variables and their distributions, identify outliers, and perform any necessary transformations. These steps were completed in Python to maintain reproducibility, and can be found in the [jupyter_notebooks directory](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/jupyter_notebooks/01_car_price_project.ipynb). The cleaned data was used to create interactive visualisations in a Tableau dashboard, which will be used to inform the hypotheses and provide insights to stakeholders for their business requirements. Tableau was chosen as the dashboarding tool as it is widely used in business and provides an intuitive platform for data storytelling. The dashboard associated with this project is publicly available here: [Online Dashboard](https://public.tableau.com/app/profile/maria.matsella/viz/CarPriceAnalysis_17598897815210/Dashboard1). Static versions of the dashboard visualisations are stored [here]().
+The data was first extracted from Kaggle and then cleaned to improve its quality for further analysis. This cleaned data was uploaded into the [repository](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/Data/car_price_cleaned_data.csv) for access by the wider team. Exploratory data analysis (EDA) was conducted to understand the key variables and their distributions, identify outliers, and perform any necessary transformations. These steps were completed in Python to maintain reproducibility, and can be found in the [jupyter_notebooks directory](https://github.com/KMarsh-code/Car-Price-Analysis-Project/blob/3e97e0f315abb778f55a6fbf0548dea0c8fecbe5/jupyter_notebooks/01_car_price_project.ipynb). The cleaned data was used to create interactive visualisations in a Tableau dashboard, which will be used to inform the hypotheses and provide insights to stakeholders for their business requirements. Tableau was chosen as the dashboarding tool as it is widely used in business and provides an intuitive platform for data storytelling. The dashboard associated with this project is publicly available here: [Online Dashboard](https://public.tableau.com/app/profile/maria.matsella/vizzes). Static versions of the dashboard visualisations are stored [here](https://github.com/KMarsh-code/Car-Price-Analysis-Project/tree/main/Dashboards).
 
 ## The rationale to map the business requirements to the Data Visualisations
 
@@ -129,7 +130,7 @@ To ensure accessibility across audiences, the dashboard was designed with intuit
 
 ## Development Roadmap
 
-Working on a hackathon project as a small, fully remote team was challenging as it is a very fast-paced situation where communication is vital. We kept up to date with progress by having regular team meetings throughout the day, as well a a dedicated team discord channel where we could post issues or updates at any time. We also maintained a project board where progress could be tracked in real time. Using Tableau for the purposes of this Hackathon was a steep learning curve, but provided an excellent opportunity for growth. In the future, we could expand on the skills used in the dashboard tools to include forecasting with temporal data.
+Working on a hackathon project as a small, fully remote team was challenging as it is a very fast-paced situation where communication is vital. We kept up to date with progress by having regular team meetings throughout the day, as well a a dedicated team discord channel where we could post issues or updates at any time. We also maintained a project board where progress could be tracked in real time. Using Tableau for the purposes of this hackathon was a steep learning curve, but provided an excellent opportunity for growth. In the future, we could expand on the skills used in the dashboard tools to include forecasting with temporal data.
 
 ## Main Data Analysis Libraries
 * Pandas
@@ -143,6 +144,7 @@ Working on a hackathon project as a small, fully remote team was challenging as 
 
 ### Contributions:
 
+**Team ladybug**
 * Data Architect - Yulia Shutko
 * Data Analyst - Maria-Marsella Gounaridou
 * Data Analyst - Ifrah Mohamed
