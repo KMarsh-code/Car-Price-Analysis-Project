@@ -84,7 +84,7 @@ The following visualisations were used to support this analysis:
 
 ## Summary of Findings
 
-The project presents a connected analysis of vehicle pricing using Python and Tableau. It begins with correlation based segmentation and progresses through performance efficiency relationships, brand perception, and regional dynamics. The findings confirm that performance and engine size drive baseline pricing; fuel efficiency inversely affects perceived value; brand reputation increases price tolerance; and regional origin reinforces market segmentation. This integrated approach combines analytics and business interpretation to offer actionable insights into how the automotive industry positions and prices its products globally.
+The project presents a connected analysis of vehicle pricing using Python and Tableau. It begins with correlation-based segmentation and progresses through performance efficiency relationships, brand perception, and regional dynamics. The findings confirm that performance and engine size drive baseline pricing, while fuel efficiency inversely affects perceived value. Brand reputation increases price tolerance, and regional origin reinforces market segmentation. This integrated approach combines analytics and business interpretation to offer actionable insights into how the automotive industry positions and prices its products globally.
 
 ## Ethical considerations
 
@@ -130,7 +130,7 @@ To ensure accessibility across audiences, the dashboard was designed with intuit
 
 ## Development Roadmap
 
-Working on a hackathon project as a small, fully remote team was challenging as it is a very fast-paced situation where communication is vital. We kept up to date with progress by having regular team meetings throughout the day, as well a a dedicated team discord channel where we could post issues or updates at any time. We also maintained a project board where progress could be tracked in real time. Using Tableau for the purposes of this hackathon was a steep learning curve, but provided an excellent opportunity for growth. In the future, we could expand on the skills used in the dashboard tools to include forecasting with temporal data.
+Working on a hackathon project as a small, fully remote team was challenging as it is a very fast-paced situation where communication is vital. We kept up to date with progress by having regular team meetings throughout the day, as well as a dedicated team Discord channel where we could post issues or updates at any time. We also maintained a project board where progress could be tracked in real time. Using Tableau for the purposes of this hackathon was a steep learning curve, but it provided an excellent opportunity for growth. In the future, we could expand on the skills used in the dashboard tools to include forecasting with temporal data.
 
 ## Main Data Analysis Libraries
 * Pandas
