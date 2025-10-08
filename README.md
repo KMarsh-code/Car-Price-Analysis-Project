@@ -1,7 +1,7 @@
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png) 
 
 <p align="center">
-  <img src="LB_image.jpeg" alt="Project Logo" width="50%">
+  <img src="LB_image.jpg" alt="Project Logo" width="50%">
 </p>
 
 # Project Content
